@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>인셉션 팽이 팔아요</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <style>
+        .wrap {
+            width: 500px;
+            margin: auto;
+        }
+        .image {
+            width: 500px;
+            box-shadow: 3px 3px 10px gray;
+            margin: 10px 460px 30px 460px;
+        }
+        div p {font-family: 'Do Hyeon', sans-serif;}
+        .form {font-family: 'Nanum Gothic', sans-serif;}
+        .description {font-family: 'Nanum Gothic', sans-serif;}
+
+    </style>
+
+    <script>
+        function order(){
+            alert("주문이 완료되었습니다.")
+        }
+    </script>
+
+</head>
+<body>
+    <img class="image" src="https://cdn.shopify.com/s/files/1/0813/8015/products/Inception_Spinning_Top_1200x.jpg?v=1570630220"/>
+    <div class="wrap">
+        <p></p>
+    <div class="title">
+        <p>
+            <span style="color:steelblue; font-size: 30pt; font-weight: bold">인셉션 팽이</span>
+            <span style="color:steelblue; font-size: larger">Inception Totem</span> 가격: 1억 / 개
+        </p>
+        <div class="description">꿈과 현실을 구분해주는 팽이입니다.
+            인셉션 개봉 10주년을 맞아 온라인에서 독점 판매합니다.
+            악몽을 꾸다 깨어났 때, 믿기 힘든 좋은 일이 일어났을 때, 이 팽이를 한번 돌려보세요.
+        </div>
+    </div>
+    <p></p>
+        <hr>
+    <div class="order">
+        <p>
+            <span style="color:steelblue; font-size: 30pt; font-weight: bold">주문하기</span>
+        </p>
+        <div class="form">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">주문자 성함</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="김땡땡">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">수량</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">주소</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">전화번호</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="010-1234-5678">
+            </div>
+            <button onclick="order()" type="button" class="btn btn-secondary btn-lg btn-block">주문하기</button>
+        </div>
+    </div>
+</div>
+
+<!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
